@@ -13,6 +13,7 @@ brew install tree
 brew install git
 brew install wget
 brew install gpg
+brew install mysql
 brew install git-crypt
 brew update
 brew tap caskroom/cask
