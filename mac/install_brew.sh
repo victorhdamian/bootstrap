@@ -18,9 +18,9 @@ brew install mysql
 #brew services start mysql
 #Expected output : Successfully started mysql (label: homebrew.mxcl.mysql)
 #Check of the MySQL service has been loaded
-brew services list 1
+#brew services list
 #Verify the installed MySQL instance
-mysql -V
+#mysql -V
 brew install git-crypt
 brew update
 brew tap caskroom/cask
