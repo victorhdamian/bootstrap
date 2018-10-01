@@ -14,6 +14,13 @@ brew install git
 brew install wget
 brew install gpg
 brew install mysql
+#brew tap homebrew/services
+#brew services start mysql
+#Expected output : Successfully started mysql (label: homebrew.mxcl.mysql)
+#Check of the MySQL service has been loaded
+brew services list 1
+#Verify the installed MySQL instance
+mysql -V
 brew install git-crypt
 brew update
 brew tap caskroom/cask
